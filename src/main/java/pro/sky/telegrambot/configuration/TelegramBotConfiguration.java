@@ -12,7 +12,6 @@ import org.springframework.context.annotation.PropertySource;
 @Data
 @PropertySource("application.properties")
 public class TelegramBotConfiguration {
-
     @Value("${telegram.bot.token}")
     private String token;
 
